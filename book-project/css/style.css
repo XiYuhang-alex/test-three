@@ -1,0 +1,31 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: "Microsoft YaHei", sans-serif; }
+
+.navbar { background: #1a1a2e !important; }
+.navbar-brand, .nav-link { color: #f5a623 !important; }
+
+.hero {
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+.hero h1 { font-size: 3rem; color: #f5a623; }
+
+.section-title {
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 40px 0 30px;
+}
+
+.card {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    height: 100%;
+}
+.card:hover { transform: translateY(-4px); }
+
+@media (max-width: 768px) {
+    .hero h1 { font-size: 2rem; }
+}
